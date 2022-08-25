@@ -1,4 +1,4 @@
-import CharBar from "./ChartBar";
+import ChartBar from "./ChartBar";
 import "./Chart.css";
 
 const Chart = (props) => {
@@ -7,7 +7,7 @@ const Chart = (props) => {
       <ChartBar
         key={dataPoint.label}
         value={dataPoint.value}
-        maxValur={null}
+        maxValue={null}
         label={dataPoint.label}
       />
     ))}
